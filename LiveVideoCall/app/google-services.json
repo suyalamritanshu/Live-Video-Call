@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053164628316",
+    "project_id": "live-video-call-95e3f",
+    "storage_bucket": "live-video-call-95e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053164628316:android:902da4d9b8cd9ab106f999",
+        "android_client_info": {
+          "package_name": "com.example.livevideocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053164628316-dg15p54boo6ik0pvi41cff0u72qhtp9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4I-tuPxCP6hzNrCqcg79y3J__kGAvBt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053164628316-dg15p54boo6ik0pvi41cff0u72qhtp9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
