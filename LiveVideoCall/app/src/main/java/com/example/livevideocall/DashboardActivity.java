@@ -57,5 +57,18 @@ public class DashboardActivity extends AppCompatActivity {
                 JitsiMeetActivity.launch(DashboardActivity.this, options);
             }
         });
+
+        shareBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String secretCode = secretCodeBox.getText().toString();
+                String secretCodeFinal = "My Live Video Call Secret Code Is: " + secretCode;
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Secret Code");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, secretCodeFinal);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
+            }
+        });
     }
 }
